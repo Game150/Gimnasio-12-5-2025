@@ -13,6 +13,7 @@
     <body>
         <h1>Bienvenido!</h1>
         <a href="registrarAlumno.jsp" target="target">Ir a registrar Alumnos</a>
+        <a href="registrarProfesor.jsp" target="target">Ir a registrar profesor</a>
         <a href="verAlumnos.jsp" target="target">Ver alumnos</a>
     </body>
 </html>
