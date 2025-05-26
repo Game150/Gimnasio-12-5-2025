@@ -1,0 +1,55 @@
+12-May-2025 17:36:58.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/8.5.96
+12-May-2025 17:36:58.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Nov 10 2023 14:56:59 UTC
+12-May-2025 17:36:58.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     8.5.96.0
+12-May-2025 17:36:58.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-23
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       23.0.1+11-39
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\xampp\tomcat
+12-May-2025 17:36:58.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\xampp\tomcat
+12-May-2025 17:36:58.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+12-May-2025 17:36:58.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\xampp\tomcat\conf\logging.properties
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-UHVQFGP
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+12-May-2025 17:36:58.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-May-2025 17:36:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+12-May-2025 17:36:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\xampp\tomcat
+12-May-2025 17:36:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\xampp\tomcat
+12-May-2025 17:36:58.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\xampp\tomcat\temp
+12-May-2025 17:36:58.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.39] con la versión APR [1.7.4].
+12-May-2025 17:36:58.612 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [{4}].
+12-May-2025 17:36:58.612 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-May-2025 17:36:59.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 3.0.11 19 Sep 2023]
+12-May-2025 17:36:59.565 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+12-May-2025 17:36:59.626 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3027 ms
+12-May-2025 17:36:59.736 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+12-May-2025 17:36:59.737 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.96]
+12-May-2025 17:36:59.761 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\docs] de la aplicación web
+12-May-2025 17:37:00.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\docs] has finished in [579] ms
+12-May-2025 17:37:00.345 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\examples] de la aplicación web
+12-May-2025 17:37:02.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\examples] has finished in [2.112] ms
+12-May-2025 17:37:02.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\Gimnasio-12-5-2025] de la aplicación web
+12-May-2025 17:37:02.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\Gimnasio-12-5-2025] has finished in [48] ms
+12-May-2025 17:37:02.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\host-manager] de la aplicación web
+12-May-2025 17:37:02.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\host-manager] has finished in [100] ms
+12-May-2025 17:37:02.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\manager] de la aplicación web
+12-May-2025 17:37:02.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\manager] has finished in [105] ms
+12-May-2025 17:37:02.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\projecto] de la aplicación web
+12-May-2025 17:37:02.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\projecto] has finished in [121] ms
+12-May-2025 17:37:02.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\xampp\tomcat\webapps\ROOT] de la aplicación web
+12-May-2025 17:37:02.886 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\xampp\tomcat\webapps\ROOT] has finished in [52] ms
+12-May-2025 17:37:02.890 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-May-2025 17:37:02.963 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3336 ms
+12-May-2025 18:26:27.918 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+12-May-2025 18:26:27.919 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-May-2025 18:26:27.923 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+12-May-2025 18:26:27.992 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-May-2025 18:26:28.009 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

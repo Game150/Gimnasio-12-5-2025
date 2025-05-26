@@ -1,0 +1,163 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 may. 2025, 2:54:38 p. m.
+    Author     : andre
+*/
+
+html {
+  min-height: 100%;
+  display: grid;
+}
+
+body {
+  margin: auto;
+  background-color:#F4F5F0;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_registro {
+    width: 30vw;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+    padding: 10px;
+}
+
+.form_registro h1 {
+    margin: 0; 
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    font-size: 2.56vw;
+    line-height: 67px;
+    white-space: nowrap;
+    text-align: center;
+    color: #000000;
+}
+
+.form_registro input[type="text"],input[type="email"],input[type="password"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    height: 60px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el tamaño */
+    border-radius: 4px;
+    outline: none;
+    color: #bdbdbd;
+}
+
+.form_registro label[for="nombre_alumno"], label[for="email_alumno"], label[for="pass_alumno"] {
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  white-space: nowrap;
+  text-align: center;
+  color: #2a9d8f;
+}
+
+.form_registro div:nth-of-type(1) {
+    float: left;
+    width: 45%;
+}
+
+.form_registro div:nth-of-type(1) select {
+    display: grid;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 4px;
+    background: #ffffff;
+    border: 1px  solid #bdbdbd;
+    cursor: pointer;
+}
+
+.form_registro div:nth-of-type(1) select:hover {
+    background-color: #2a9d8f;
+}
+
+.form_registro div:nth-of-type(2) {
+    float: right;
+    width: 45%;
+    overflow: hidden;
+}
+
+.form_registro div:nth-of-type(2) label:nth-of-type(1){
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  display: inline-block;
+  font-weight: 200;
+  font-size: 12px;
+  width: 100%;
+  line-height: 31px;
+  white-space: break-spaces;
+  color: #2a9d8f;
+}
+
+/* Estilo para input tipo file  */
+.form_registro div:nth-of-type(2) input[type="file"]{
+  display: none;
+}
+
+.form_registro .custom-label-perfilalumno {
+  border: 1px solid #ccc;
+  display: block;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #f4a261;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.08px;
+  white-space: nowrap;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form_registro .custom-label-perfilalumno:hover {
+    background-color: #2a9d8f;
+}
+/* Fin estilo para el inputo tipo file */
+
+.form_registro input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 4px;
+    background: #f4a261;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 20px;
+    letter-spacing: -0.08px;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.form_registro input[type="submit"]:hover {
+    background-color: #2a9d8f;  
+}
+
+
+
