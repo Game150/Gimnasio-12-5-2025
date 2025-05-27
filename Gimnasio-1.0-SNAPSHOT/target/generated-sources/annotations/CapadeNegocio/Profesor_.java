@@ -2,12 +2,12 @@ package CapadeNegocio;
 
 import CapadeNegocio.Localidad;
 import CapadeNegocio.Red_Social;
-import javax.annotation.Generated;
+import javax.annotation.processing.Generated;
 import javax.persistence.metamodel.ListAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="EclipseLink-2.7.12.v20230209-rNA", date="2025-05-26T15:19:41")
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2025-05-27T04:17:27", comments="EclipseLink-2.7.12.v20230209-rNA")
 @StaticMetamodel(Profesor.class)
 public class Profesor_ { 
 

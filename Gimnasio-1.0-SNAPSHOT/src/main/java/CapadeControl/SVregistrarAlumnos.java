@@ -61,10 +61,12 @@ public class SVregistrarAlumnos extends HttpServlet {
                 return; //Cierra la ejecución y manda la repuesta
                 
             }
+            
             //Persistencia de alumno en la base de datos
             ControladoradeUsuarios.getCP().crearAlumnoCP(alu);
             misesion.setAttribute("Mensaje", "Usuario registrado correctamente");
             response.sendRedirect(request.getContextPath() + "/registrarAlumno.jsp");
+
             
         } catch (Exception ex) {
             misesion.setAttribute("Error", "Ocurrió un error inesperado");
