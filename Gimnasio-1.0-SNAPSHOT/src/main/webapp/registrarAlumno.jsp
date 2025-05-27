@@ -33,7 +33,7 @@
                 <h1>Registro de Alumno</h1>
                 <hr>
                 <label for="nombre_alumno">Nombre</label>
-                <input type="text" placeholder="Ingrese el nombre para su usuario" id="nombre_alumno" name="nombre_alumno" required autofocus>
+                <input type="text" placeholder="Ingrese el nombre para su usuario" name="nombre_alumno" required autofocus>
                 <label for="email_alumno">Correo</label>
                 <input type="email" placeholder="Ingrese su correo para vincular a su cuenta" name="email_alumno" required>
                 <label for="pass_alumno">Contraseña</label>
@@ -67,16 +67,8 @@
                         <% }%>
                     </select>
                 </div>
-                <div>
-                    <label for="perfil_alumno">Ingresa una foto de perfil</label>
-                    <label for="perfil_alumno" class="custom-label-perfilalumno">
-                        Imagen de perfil
-                    </label>
-                    <input id="perfil_alumno" type="file" accept="image/png, image/gif, image/jpeg" />
-                </div>
                 <input type="submit" value="Enviar">
             </form>
         </div>
-
     </body>
 </html>
