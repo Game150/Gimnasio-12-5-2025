@@ -4,8 +4,8 @@
     Author     : andre
 --%>
 
-<%@page import="CapadeNegocio.Localidad"%>
-<%@page import="CapadeNegocio.ControladoradeUsuarios"%>
+<%@page import="Controladoras.ControladoradeUsuarios" %>
+<%@page import="CapadeNegocio.Localidad" %>
 <%@page import="java.util.ArrayList"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -43,10 +43,10 @@
                     <input type="email" placeholder="ejemplo@ejemplo.com" name="email_profesor" required>
                     <label for="pass_profesor">Contraseña</label>
                     <input type="password" placeholder="Contraseña segura" name="pass_profesor" required>
-                    <select for="Localidad" name="localidad_alumno">
+                    <select for="Localidad" name="localidad_profesor">
                         <option>Seleccione su localidad</option>
                         <%  
-                            ArrayList<Localidad> listaLocalidades = (ArrayList<Localidad>) ControladoradeUsuarios.getCP().obtenerLocalidadesCP();
+                            ArrayList<Localidad> listaLocalidades = (ArrayList<Localidad>) ControladoradeUsuarios.getCO().obtenerlistadeLocalidades();
                         %>
                         <%for (Localidad localidad :  listaLocalidades) {%>
                         <option value="<%= localidad.getIdLocalidad() %>"> <%= localidad.getNombreLocalidad() %> </option>

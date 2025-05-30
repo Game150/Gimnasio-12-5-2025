@@ -11,8 +11,29 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Bienvenido!</h1>
-        <a href="registrarAlumno.jsp" target="target">Ir a registrar Alumnos</a>
-        <a href="registrarProfesor.jsp" target="target">Ir a registrar Profesor</a>
+        <header>
+            <h1>Mi Página Web</h1>
+        </header>
+
+        <nav>
+            <a href="index.jsp">Inicio</a>
+            <a href="registrarAlumno.jsp" target="_self">Ir a registrar Alumnos</a>
+            <a href="registrarProfesor.jsp" target="_self">Ir a registrar Profesor</a>
+        </nav>
+
+        <section>
+            <h2>Contenido Principal</h2>
+            <article>
+                <h3>Artículo 1</h3>
+                <p>Este es el primer artículo. Contiene información importante.</p>
+            </article>
+            <article>
+                <h3>Artículo 2</h3>
+                <p>Otro artículo con detalles adicionales.</p>
+            </article>
+        </section>
+        <footer>
+            <p>Esta pagina fue desarrollada por <a href="https://linkedin.com/in/andrés-ferreira-a739682a5" >Andrés Ferreira</a></p>
+        </footer>
     </body>
 </html>

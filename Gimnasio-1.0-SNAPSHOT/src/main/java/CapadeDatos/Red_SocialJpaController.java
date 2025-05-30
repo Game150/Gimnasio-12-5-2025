@@ -15,7 +15,7 @@ import javax.persistence.EntityManager;
  */
 public class Red_SocialJpaController {
 
-    public void persist(Red_Social object) {
+    public void createEntity(Red_Social object) {
         EntityManager em = JpaUtil.getEntityManager();
         try {
             em.getTransaction().begin();
@@ -28,5 +28,49 @@ public class Red_SocialJpaController {
             em.close();
         }
     }
-    
+
+    public void updateEntity(Red_Social object) {
+        EntityManager em = JpaUtil.getEntityManager();
+        try {
+            em.getTransaction().begin();
+            em.merge(object);
+            em.getTransaction().commit();
+        } catch (Exception e) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, "Error al actualizar la entidad", e);
+            em.getTransaction().rollback();
+        } finally {
+            em.close();
+        }
+    }
+
+    public Red_Social findEntity(int id) {
+        EntityManager em = JpaUtil.getEntityManager();
+        Red_Social red = null;
+        try {
+            red = em.find(Red_Social.class, id);
+        } catch (Exception e) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, "Error al buscar entidad", e);
+        } finally {
+            em.close();
+        }
+        return red;
+    }
+
+    public void deleteEntity(int id) {
+        EntityManager em = JpaUtil.getEntityManager();
+        try {
+            em.getTransaction().begin();
+            Red_Social red = em.find(Red_Social.class, id);
+            if (red != null) {
+                em.remove(red);
+                em.getTransaction().commit();
+            }
+        } catch (Exception e) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, "Error al eliminar la entidad", e);
+            em.getTransaction().rollback();
+        } finally {
+            em.close();
+        }
+    }
+
 }

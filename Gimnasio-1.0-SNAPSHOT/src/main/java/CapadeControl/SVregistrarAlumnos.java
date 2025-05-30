@@ -1,7 +1,7 @@
 package CapadeControl;
 
 import CapadeNegocio.Alumno;
-import CapadeNegocio.ControladoradeUsuarios;
+import Controladoras.ControladoradeUsuarios;
 import CapadeNegocio.Localidad;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
