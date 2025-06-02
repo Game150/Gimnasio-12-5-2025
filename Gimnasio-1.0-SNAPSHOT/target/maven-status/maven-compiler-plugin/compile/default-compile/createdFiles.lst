@@ -17,9 +17,11 @@ Controladoras\ControladoradePersistencias.class
 CapadeNegocio\Localidad_.class
 CapadeNegocio\Profesor.class
 CapadeNegocio\Red_Social.class
+CapadeControl\SVlogin.class
 CapadeNegocio\Administrador_.class
 CapadeNegocio\Administrador.class
 CapadeDatos\AdministradorJpaController.class
+CapadeDatos\ComprobarUsuario.class
 CapadeControl\SVregistrarProfesor.class
 CapadeDatos\exceptions\PreexistingEntityException.class
 CapadeDatos\Red_SocialJpaController.class

@@ -12,28 +12,32 @@
     </head>
     <body>
         <header>
-            <h1>Mi Página Web</h1>
+            <img src="src" width="width" height="height" alt="Logo"/>
+            <nav>
+                <a href="login.jsp">Iniciar Sesion</a>
+                <a href="registrarAlumno.jsp" target="_self">¿Quieres registrarte como Alumno?</a>
+                <a href="registrarProfesor.jsp" target="_self">¿Quieres enseñar a tus alumnos?</a>
+                <a href="#">Información de contaco</a>
+            </nav>
         </header>
-
-        <nav>
-            <a href="index.jsp">Inicio</a>
-            <a href="registrarAlumno.jsp" target="_self">Ir a registrar Alumnos</a>
-            <a href="registrarProfesor.jsp" target="_self">Ir a registrar Profesor</a>
-        </nav>
-
         <section>
-            <h2>Contenido Principal</h2>
+            <h2>Publicidad(Banner)</h2>
             <article>
-                <h3>Artículo 1</h3>
-                <p>Este es el primer artículo. Contiene información importante.</p>
+                <p>Contenido de publicidad</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>Contenido</h3>
+                <p>Contiene información importante sobre la app.</p>
             </article>
             <article>
-                <h3>Artículo 2</h3>
-                <p>Otro artículo con detalles adicionales.</p>
+                <h3>Nuevo</h3>
+                <p>Contenido sobre lo nuevo de la app</p>
             </article>
         </section>
         <footer>
-            <p>Esta pagina fue desarrollada por <a href="https://linkedin.com/in/andrés-ferreira-a739682a5" >Andrés Ferreira</a></p>
+            <p>Esta pagina fue desarrollada por Andrés Ferreira | Linkedin: <a href="https://linkedin.com/in/andrés-ferreira-a739682a5" ></a></p>
         </footer>
     </body>
 </html>

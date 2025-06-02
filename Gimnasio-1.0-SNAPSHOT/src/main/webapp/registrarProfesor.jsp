@@ -53,7 +53,7 @@
                         <% } %>
                     </select>
                     <div class="textarea_container">
-                        <label>Cuantos un poco sobre tu experiencia</label>
+                        <label for="experiencia_profesor">Cuantos un poco sobre tu experiencia</label>
                         <textarea name="experiencia_profesor" maxlength="255" placeholder="Profesional de servicio al cliente comprometido...."></textarea>
                     </div>
                     <input type="submit" value="Enviar">
