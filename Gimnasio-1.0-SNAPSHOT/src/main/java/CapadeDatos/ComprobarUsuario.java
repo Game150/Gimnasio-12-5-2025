@@ -15,9 +15,9 @@ public class ComprobarUsuario {
     public static int Comprobar(String Correo, String Pass) {
         //JPQL no me sirvio, así que se armo una sentencia SQL Query con sus valores ? asignados respectivamente
         String consulta = "SELECT COUNT(*) FROM ("
-                + "SELECT 1 FROM alumno WHERE alumno.CORREOALUMNO = ? AND alumno.CONTRASENIAALUMNO = ? "
+                + "SELECT 1 FROM ALUMNO WHERE ALUMNO.CORREOALUMNO = ? AND ALUMNO.CONTRASENIAALUMNO = ? "
                 + "UNION ALL "
-                + "SELECT 1 FROM profesor WHERE profesor.CORREOPROFESOR = ? AND profesor.CONTRASENIAPROFESOR = ?"
+                + "SELECT 1 FROM PROFESOR WHERE PROFESOR.CORREOPROFESOR = ? AND PROFESOR.CONTRASENIAPROFESOR = ?"
                 + ") AS resultado;";
 
         var EMF = JpaUtil.getEntityManager();

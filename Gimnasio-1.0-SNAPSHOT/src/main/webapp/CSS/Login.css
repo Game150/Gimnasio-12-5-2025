@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 3 jun 2025, 21:17:37
+    Author     : game150
+*/
+
+html {
+  min-height: 100%;
+  display: grid;
+}
+
+body {
+  margin: auto;
+  background-color:#F4F5F0;
+}
+
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_registro {
+    width: 30vw;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+    padding: 10px;
+}
+
+.form_registro h1 {
+    margin: 0; 
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    font-size: 2.56vw;
+    line-height: 67px;
+    white-space: nowrap;
+    text-align: center;
+    color: #000000;
+}
+
+.form_registro input[type="text"],input[type="email"],input[type="password"] {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    height: 60px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Asegura que el padding y el borde no aumenten el tamaño */
+    border-radius: 4px;
+    outline: none;
+    color: black;
+}
+
+
+.form_registro input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="password"]::placeholder {
+    color:#bdbdbd;
+}
+
+.form_registro input[type="submit"]{
+    display: block;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 4px;
+    background: #f4a261;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 20px;
+    letter-spacing: -0.08px;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.form_registro label[for="correo_usuario"], label[for="pass_usuario"] {
+  font-family: 'Bahnschrift';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  white-space: nowrap;
+  text-align: justify;
+  color: #2a9d8f;
+}
+
+.form_registro input[type="submit"]:hover {
+    background-color: #2a9d8f;  
+}
